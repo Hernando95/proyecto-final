@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mundo Anime</title>
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+    integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous" />
+</head>
+
+<body>
+  <header>
+    <div class="brand-nav">
+      <a class="logo" href="#">Mundo <span>Anime !</span></a>
+    </div>
+    <nav class="nav-wrapper">
+      <ul class="nav-list">
+        <li class="nav-list__item">
+          <a href="index.html" class="nav-list__link current"><i class="fas fa-search-location"></i> Home</a>
+        </li>
+        <li class="nav-list__item">
+          <a href="result.html" class="nav-list__link"><i class="far fa-user"></i> Events</a>
+        </li>
+        <li class="nav-list__item">
+          <a href="about.html" class="nav-list__link"><i class="fa-solid fa-address-book"></i> About</a>
+        </li>
+      </ul>
+      <div class="nav-sm-icons-menu">
+        <a href="index.html"><i class="fas fa-search-location nav-sm-icon"></i></a>
+        <a href="result.html"><i class="far fa-user nav-sm-icon"></i></a>
+        <a href="about.html"><i class="fa-solid fa-address-book"></i></a>
+      </div>
+    </nav>
+  </header>
+  <main id="result">
+    <section class="filter">
+      <h2 class="filter-title">
+        Filtrar por nombre, categoria, año:
+      </h2>
+      <form class="filter-form">
+        <label class="filter-form__element-title_desk"> Anime:</label>
+        <label class="filter-form__element-title_desk"> Pais:</label>
+        <label class="filter-form__element-title_desk"> Genero:</label>
+        <label class="filter-form__element-title_desk"> Año: </label>
+        <label class="filter-form__element-title_desk">Estudio:</label>
+        <div class="empty-separator-lm"></div>
+
+        <label class="filter-form__element-title">Nombre del Anime: *</label>
+        <input type="text" placeholder="Escriba el nombre del anime" />
+
+        <label class="filter-form__element-title"> Pais:</label>
+
+        <input list="Country" name="Country" placeholder="Seleccione un pais" />
+        <datalist id="Country">
+          <option value=" Afghanistan"> </option>
+          <option value=" Albania"> </option>
+          <option value=" Algeria"> </option>
+          <option value=" American Samoa"> </option>
+          <option value=" Andorra"> </option>
+          <option value=" Angola"> </option>
+          <option value=" Anguilla"> </option>
+          <option value=" Antigua and Barbuda"> </option>
+          <option value=" Argentina"> </option>
+          <option value=" Armenia"> </option>
+          <option value=" Aruba"> </option>
+          <option value=" Australia"> </option>
+          <option value=" Austria"> </option>
+          <option value=" Azerbaijan"> </option>
+          <option value=" Bahamas"> </option>
+          <option value=" Bahrain"> </option>
+          <option value=" Bangladesh"> </option>
+          <option value=" Barbados"> </option>
+          <option value=" Belarus"> </option>
+          <option value=" Belgium"> </option>
+          <option value=" Belize"> </option>
+          <option value=" Benin"> </option>
+          <option value=" Bermuda"> </option>
+          <option value=" Bhutan"> </option>
+          <option value=" Bolivia"> </option>
+          <option value=" Bosnia and Herzegovina"> </option>
+          <option value=" Botswana"> </option>
+          <option value=" Brazil"> </option>
+          <option value=" British Virgin Islands"> </option>
+          <option value=" Brunei"> </option>
+          <option value=" Bulgaria"> </option>
+        </datalist>
+
+        <label class="filter-form__element-title"> Genero:</label>
+        <input list="genero" placeholder="seleccione un genero" />
+        <datalist id="genero">
+          <option value="Accion"> </option>
+          <option value="Aventura"> </option>
+          <option value="Magia"> </option>
+          <option value="Romance"> </option>
+          <option value="Gore"> </option>
+          <option value="Fantacia"> </option>
+          <option value="terror"> </option>
+          <option value="Suspenso"> </option>
+          <option value="comedia"> </option>
+        </datalist>
+
+        <label class="filter-form__element-title">Año: </label>
+        <input type="text" placeholder="Escriba año de lazamiento" />
+
+        <label class="filter-form__element-title">Estudio:</label>
+        <input type="text" placeholder="Escriba nombre del estudio" />
+
+        <div class="empty-separator-sm"></div>
+        <div class="filter-form__element-btn">
+          <button>Buscar</button>
+          <button>Borrar filtro</button>
+        </div>
+      </form>
+    </section>
+    <section class="results">
+      <h1 class="results-head">Aqui puedes encontrar los mejores Animes</h1>
+      <div class="results-gallery">
+        <a href="https://www.crunchyroll.com/es/series/G6W4QKX0R/the-rising-of-the-shield-hero" target="_blank" class="results-gallery__img">
+          <div class="results-gallery__img-txt">
+            <h1>Tate no Yūsha no Nariagari</h1>
+            <p> <span>fecha de emision:</span>
+              9 de enero de 2019,
+            </p>
+            <p><span>genero:</span>	Acción, aventura, drama, fantasía oscura, isekai</p>
+          </div>
+          <img src="./imagen/im-10.webp" alt="1" />
+        </a>
+        <a href="https://www.crunchyroll.com/es/series/G6NV7Z50Y/tokyo-ghoul" target="_blank" class="results-gallery__img">
+          <div class="results-gallery__img-txt">
+            <h1>Tokio Ghould</h1>
+            <p> <span>fecha de emision:</span>
+              4 de julio de 2014, 
+            </p>
+            <p><span>genero:</span>	Fantasía oscura,​ horror, ​acción, drama, romance</p>
+          </div>
+          <img src="./imagen/im-12.webp" alt="2" />
+        </a>
+        <a href="https://www.crunchyroll.com/es/series/GR49G9VP6/sword-art-online" target="_blank" class="results-gallery__img">
+          <div class="results-gallery__img-txt">
+            <h1>Sword Art Online</h1>
+            <p> <span>fecha de emision:</span>
+              10 de abril de 2009, 
+            </p>
+            <p><span>genero:</span>Acción, isekai, aventura, ciencia ficción, drama, fantasía, romance</p>
+          </div>
+          <img src="./imagen/im-17.webp" alt="3" />
+        </a>
+        <a href="https://www.crunchyroll.com/es/series/GY3VKX1MR/hunter-x-hunter" target="_blank" class="results-gallery__img">
+          <div class="results-gallery__img-txt">
+            <h1>Hunter X Hunter</h1>
+            <p> <span>fecha de emision:</span>
+              16 de octubre de 1999
+            </p>
+            <p><span>genero:</span>	Acción, </p>
+          </div>
+          <img src="./imagen/im-3.webp" alt="4" />
+        </a>
+        <a href="https://www.crunchyroll.com/es/series/G63VGG2NY/bleach" target="_blank" class="results-gallery__img">
+          <div class="results-gallery__img-txt">
+            <h1>Bleach</h1>
+            <p><span>fecha de emision:</span>
+              5 de octubre de 2004, 
+            </p>
+            <p><span>genero:</span>	Acción, Aventura </p>
+          </div>
+          <img src="./imagen/im-2.webp" alt="5" />
+        </a>
+        <a href="https://www.crunchyroll.com/es/series/GR19V7816/dragon-ball-super" target="_blank" class="results-gallery__img">
+          <div class="results-gallery__img-txt">
+            <h1>Dragon Ball Super</h1>
+            <p> <span>fecha de emision:</span>
+              	5 de julio de 2015.</p>
+            <p><span>genero:</span>	Acción, Aventura </p>
+          </div>
+          <img src="./imagen/im-5.webp" alt="6" />
+        </a>
+        <a href="https://www.crunchyroll.com/es/series/GY5P48XEY/demon-slayer-kimetsu-no-yaiba" target="_blank" class="results-gallery__img">
+          <div class="results-gallery__img-txt">
+            <h1>Demon slayer</h1>
+            <p><span>fecha de emision:</span>
+              29 de marzo de 2019</p>
+            <p><span>genero:</span>	Acción, Aventura </p>
+          </div>
+          <img src="./imagen/im-1.webp" alt="6" />
+        </a>
+        <a href="https://www.crunchyroll.com/es/series/G3KHEVMN1/tokyo-revengers" target="_blank" class="results-gallery__img">
+          <div class="results-gallery__img-txt">
+            <h1>Tokyo Revengers</h1>
+            <p><span>fecha de emision:</span>
+              	10 de abril de 2021</p>
+            <p><span>genero:</span>	Acción, Aventura, Escolar </p>
+
+          </div>
+          <img src="./imagen/im-4.webp" alt="6" />
+        </a>
+        <a href="https://www.crunchyroll.com/es/series/G64G2VDPR/noblesse" target="_blank" class="results-gallery__img">
+          <div class="results-gallery__img-txt">
+            <h1>Noblesse</h1>
+            <p><span>fecha de emision:</span>
+              7 de octubre de 2020</p>
+            <p><span>genero:</span>	Acción, comedia, Escolar </p>
+
+          </div>
+          <img src="./imagen/im-8.webp" alt="6" />
+        </a>
+        <a href="https://www.netflix.com/co/title/80050063" target="_blank" class="results-gallery__img">
+          <div class="results-gallery__img-txt">
+            <h1>Nanatsu no Taizai</h1>
+            <p><span>fecha de emision:</span>
+              5 de octubre de 2014</p>
+            <p><span>genero:</span>	Acción, Aventura, Magia </p>
+
+
+          </div>
+          <img src="./imagen/im-13.webp" alt="6" />
+        </a>
+        <a href="https://www.crunchyroll.com/es/series/G63K98PZ6/one-punch-man" target="_blank" class="results-gallery__img">
+          <div class="results-gallery__img-txt">
+            <h1>One punch Man</h1>
+            <p><span>fecha de emision:</span>
+              	5 de octubre de 2015</p>
+            <p><span>genero:</span>	Acción, comedia, ciencia ficción </p>
+          </div>
+          <img src="./imagen/im-16.webp" alt="6" />
+        </a>
+
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-top">
+      <ul class="footer-list">
+        <li class="footer-list__item">
+          <a href="#" class="footer-list__link">home</a>
+        </li>
+        <li class="footer-list__item">
+          <a href="#" class="footer-list__link">search</a>
+        </li>
+        <li class="footer-list__item">
+          <a href="#" class="footer-list__link">about us</a>
+        </li>
+        <li class="footer-list__item">
+          <a href="#" class="footer-list__link">advertise</a>
+        </li>
+        <li class="footer-list__item">
+          <a href="#" class="footer-list__link">
+            <i class="fas fa-map-marker-alt"></i>
+          </a>
+        </li>
+        <li class="footer-list__item">
+          <a href="#" class="footer-list__link">facebook</a>
+        </li>
+        <li class="footer-list__item">
+          <a href="#" class="footer-list__link">twitter</a>
+        </li>
+        <li class="footer-list__item">
+          <a href="#" class="footer-list__link">blog</a>
+        </li>
+        <li class="footer-list__item">
+          <a href="#" class="footer-list__link">google</a>
+        </li>
+      </ul>
+    </div>
+    <section class="footer-mid">
+      <div class="footer-mid-element">
+        <h2 class="footer-mid-element__title">subscribe</h2>
+        <div class="footer-mid-element__content">
+          <form class="footer-form">
+            <input class="footer-input" type="text" placeholder="enter your e-mail" />
+            <button class="footer-butn">send</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-mid-element">
+        <h2 class="footer-mid-element__title">contact</h2>
+        <div class="footer-mid-element__content">
+          <p class="footer-mid-element__content-txt">
+            Lorem ipsum dolor sit amet,
+            <a href="#">Lorem, ipsum dolor sit amet consectetur adipisicing</a>
+            elit.
+          </p>
+        </div>
+      </div>
+      <div class="footer-mid-element">
+        <h2 class="footer-mid-element__title">about</h2>
+        <div class="footer-mid-element__content">
+          <p class="footer-mid-element__content-txt">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae,
+            repellendus.
+          </p>
+        </div>
+      </div>
+    </section>
+    <div class="footer-btm">
+      <div class="footer-btm__icons">
+        <a class="footer-btm__icon" href="#">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a class="footer-btm__icon" href="#">
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a class="footer-btm__icon" href="#">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a class="footer-btm__icon" href="#">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <div class="footer-btm__copyright">
+        <a class="logo footer-logo" href="#"> Festivally Yours!</a>
+        &copy; Copy rights 2020.
+      </div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
